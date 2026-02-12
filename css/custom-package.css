@@ -1,0 +1,139 @@
+/* ------------------------------
+   CUSTOM PACKAGE SECTION STYLING
+--------------------------------*/
+#custom-package {
+  padding: 60px 0;
+}
+
+.custom-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #f14e95;
+  margin-bottom: 20px;
+}
+
+.custom-desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* Steps */
+.custom-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-steps li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.custom-steps .icon {
+  color: #f14e95;
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.custom-steps .text h3 {
+  margin: 0;
+  color: #1f1f1f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.custom-steps .text p {
+  margin: 4px 0 0;
+  color: #666;
+}
+
+/* Form Box */
+.custom-form-box {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  padding: 30px 35px;
+}
+
+.custom-form-box h3 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #333;
+}
+
+.custom-form-box .form-group {
+  margin-bottom: 20px;
+}
+
+.custom-form-box .form-control {
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  transition: border 0.3s ease;
+}
+
+.custom-form-box .form-control:focus {
+  border-color: #f14e95;
+}
+
+.label-title {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.checkbox-list label {
+  font-size: 14px;
+  color: #444;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #f14e95 !important;
+  border: none !important;
+  font-weight: 600;
+  padding: 12px 0;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #f14e95 !important;
+}
+
+.notification {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f14e95;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  opacity: 0;
+  transition: opacity 0.4s ease, top 0.4s ease;
+  z-index: 9999;
+}
+
+.notification.show {
+  opacity: 1;
+  top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .custom-form-box {
+    margin-top: 40px;
+  }
+}
